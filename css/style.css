@@ -1,0 +1,228 @@
+html{
+    background-color: #bbbfff;
+}
+
+/* ini untuk kotak putih */
+.form-awal{
+    width: 1200px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    padding: 50px;
+    box-sizing: border-box;
+
+    background-color:  #ffffff ;
+  
+
+    font: bold 14px sans-serif;
+}
+
+.container-row{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-row{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.form-judul{
+    text-align: top;
+    margin-bottom: 45px;
+}
+
+/* logo */
+
+.container{
+    margin: 0px auto;
+    width: 1200px;
+}
+
+#logo{
+    margin: 4em auto 4em auto;
+    text-transform: uppercase;
+}
+    
+#logo h1 a{
+    margin-left: 0.50em;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #292929;
+    font-family: sans-serif;
+}
+    
+#logo span{
+    color: #0000ff;
+}
+    
+#logo p{
+    margin: 0;
+    padding: 0 0 0 2em;
+    letter-spacing: 0.10em;
+    font-size: 0.90em;
+    color: #828282;
+}
+
+
+/* Menu */
+.menu{
+    width: 1200px;
+    margin: 0 auto;
+    background: #292929;
+}
+    
+.menu ul{
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0px 0px 0px 0px;
+    list-style: none;
+    line-height: normal;
+    text-align: center;
+}
+    
+.menu li{
+    display: inline-block;
+}
+    
+.menu a{
+    display: block;
+    padding: 0em 2em;
+    line-height: 80px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 700;
+    color: #bbbfff;
+}
+    
+.menu .current_page_item a{
+    background: #01A9DC;
+    color: #ccc;
+}
+    
+.menu a:hover{
+    text-decoration: none;
+    color: #FFF;
+}
+
+/* ini untuk inputan form */
+
+.form-awal h1{
+    display: inline-block;
+    box-sizing: border-box;
+    color:  #4c565e;
+    font-size: 24px;
+    padding: 0 10px 7px;
+    border-bottom: 2px solid #6caee0;
+    margin: 0;
+}
+
+.form-awal h5{
+    margin-top: 3px;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.form-row > label span{
+    display: inline-block;
+    box-sizing: border-box;
+    color: #5F5F5F;
+    width: 180px;
+    text-align: right;
+    vertical-align: top;
+    padding: 12px 25px;
+}
+
+.form-awal input{
+    color:  #5f5f5f;
+    box-sizing: border-box;
+    width: 240px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px;
+    border: 1px solid #dbdbdb;
+    width: 300px;
+}
+
+.form-awal select{
+    background-color: #ffffff;
+    color:  #5f5f5f;
+    box-sizing: border-box;
+    max-width: 240px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px 8px;
+    border: 1px solid #dbdbdb;
+}
+
+.form-awal textarea{
+    color:  #5f5f5f;
+    width: 275px;
+    height: 90px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    font: normal 13px sans-serif;
+    padding: 12px;
+    border: 1px solid #dbdbdb;
+    resize: vertical;
+}
+
+.form-radio-buttons{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.form-radio-buttons div{
+    margin-top: 10px;
+}
+
+.form-radio-buttons label span{
+    margin-left: 8px;
+    color: #5f5f5f;
+    font-weight: normal;
+}
+
+.form-radio-buttons input{
+    width: auto;
+}
+
+
+/* untuk mengatur display tombol button */
+.form-button{
+    text-align: top;
+    margin-bottom: 1px;
+}
+
+.form-awal button{
+	align-self: right;
+    display: inline-block;
+    border-radius: 2px;
+    background-color:  #6caee0;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 10px 22px;
+    border: 0;
+    margin: 10px 0 0;
+}
+
+/*Bagian Skil */
+
+.copyright{
+    padding: 6em 0em;
+    font-size: 0.70em;
+    letter-spacing: 0.20em;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #FFF;
+    color: #6A6A6A;
+}
+    
+.copyright a{
+    color: #747474;
+}
+
+
